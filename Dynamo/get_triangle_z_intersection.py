@@ -7,8 +7,6 @@ clr.AddReference("RevitNodes")
 import Revit
 clr.ImportExtensions(Revit.GeometryConversion)
 
-# The inputs to this node will be stored as a list in the IN variables.
-dataEnteringNode = IN
 
 def get_triangle_z_intersection(v1, v2, v3, x, y):
     # Calculate barycentric coordinates for point (x, y) relative to triangle
