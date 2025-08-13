@@ -29,7 +29,7 @@ def get_triangle_z_intersection(v1, v2, v3, x, y):
 
 
 
-# Place your code below this line
+# Create some points to create triangle
 p1 = XYZ(-10,10,5)
 p2 = XYZ.Zero
 p3 = XYZ(20,15,2)
